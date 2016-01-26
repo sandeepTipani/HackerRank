@@ -21,7 +21,7 @@ public class Solution {
                a[x]=5;
             }
         flag = Verifycount(a);
-	   if(flag){
+	    if(flag){
           print(a);
 	      continue;
         } 	
@@ -38,7 +38,7 @@ public class Solution {
            }	    
         }
         
-       if(flag){
+        if(flag){
           print(a);
 	     continue;
         } 
@@ -49,21 +49,21 @@ public class Solution {
         b[0] = 3;    
         for(int x=1;x<n;x++){
                b[x]=5;
-         }
+        }
       
-         flag = Verifycount(b); 
-         if(flag){
+        flag = Verifycount(b); 
+        if(flag){
            print(b);
-	      continue;
-         }          
+	       continue;
+        }          
 
 // Repeating last sequence with 3        
         for(int i = n-1;i>0;i--){
            b[i] = 3;  
            flag = Verifycount(b); 
-		 if(flag){
+		    if(flag){
              break;
-           }	      
+            }	      
         }
 	   if(flag){
            print(b);
