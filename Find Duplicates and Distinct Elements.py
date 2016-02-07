@@ -23,7 +23,7 @@ for y in lista:
     if(y not in listb):
       if(y not in distinct):
          distinct.append(y);
-
+# Loop noy necssary
 for y in listb:
     if(y not in lista):
       if(y not in distinct):
